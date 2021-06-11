@@ -8,6 +8,7 @@ cPersona::cPersona(int Fuerza_, int Inteligencia_, int Vida_Maxima_, int Armadur
 	Vida_Actual = Vida_Maxima;
 	Armadura = Armadura_;
 	PoderdeAtaque = PoderAtaque_;
+	Estado = true;
 }
 
 cPersona::~cPersona()

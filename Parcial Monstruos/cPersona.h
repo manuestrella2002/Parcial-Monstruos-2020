@@ -6,6 +6,7 @@ using namespace std;
 
 class cPersona
 {
+protected:
 	int Fuerza;
 	int Inteligencia;
 	int Vida_Actual;
@@ -23,6 +24,12 @@ public:
 	bool ControlarEstado();
 
 	friend class cMonstruo;
+	friend class cMago;
+	friend class cElite;
+	friend class cJefe;
+	friend class cEspadachin;
+
+
 
 
 protected:

@@ -21,12 +21,39 @@
     <ClInclude Include="cMonstruo.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="cMago.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cEspadachin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cElite.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cJefe.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="cPersona.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="cMonstruo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cMago.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cEspadachin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cElite.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cJefe.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

@@ -1,7 +1,7 @@
 #pragma once
 class cPersona;
-
-
+#include<string>
+using namespace std;
 
 class cMonstruo
 {
@@ -16,7 +16,9 @@ public:
 	~cMonstruo();
 
 	virtual void Atacar(cPersona* Persona) = 0;
+
 	bool ControlarEstado();
+	void MostarMonstruosCreados();
 
 	friend class cPersona;
 protected:
